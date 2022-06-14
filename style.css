@@ -1,1 +1,93 @@
-c:\Users\user\Desktop\0-02-05-5759d9b78960dac811dd813ce482212058067bfa48016d076972b50fe3d348ca_82e156747988187a.jpg
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto/Roboto-Black.ttf");
+  font-weight: 300;
+}
+h1 {
+ font-family: 'Roboto', sans-serif;
+ font-style: italic; 
+ font-size: 70px;
+ text-decoration: underline;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic; 
+  font-size: 30px;
+  text-decoration: underline;
+ }
+.main-container {
+display: flex;
+flex-wrap: wrap;
+}
+.sect1 {
+  flex: 2;
+  background-color: rgb(173, 203, 203);
+  border: rgb(26, 24, 24); 
+  border-radius: 15px;
+  border-width: 2px;
+ border-style: double;
+ margin: 15px;
+ padding: 10px;
+ }
+.sect2 {
+  flex: 3;
+  background-color: rgb(173, 203, 203);
+  border: rgb(26, 24, 24); 
+  border-radius: 15px;
+  border-width: 2px;
+ border-style: double;
+ margin: 15px;
+ padding: 10px;
+ }
+.nav-list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+}
+.nav-link {
+  padding: 0 25px;
+  line-height: 50px;
+  text-decoration: none;
+}
+img {
+  width: 50%;
+  border-radius: 30%;
+  
+}
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  }
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(173, 203, 203);
+  border: rgb(26, 24, 24); 
+  border-radius: 15px;
+  border-width: 2px;
+ border-style: double;
+ margin: 5px;
+ padding: 10px;
+}
+footer a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  text-decoration: underline;
+}
+a {text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: darkgray;
+}
+main {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+ }
+ body {
+  background-color: rgb(225, 233, 234);
+ }
+ .sect2 h2 {
+  margin-top: 60px;
+ }
